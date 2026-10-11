@@ -1,0 +1,155 @@
+{
+  "personal": {
+    "name": "Pritesh Vadhel",
+    "title": "Principal Software Engineer – AI & Automation",
+    "subtext": "Principal Software Engineer specializing in AI & Automation. I architect mission-critical systems that handle millions in transactions, combining resilient .NET/AWS infrastructure with agentic LLM routing and autonomous workflows. Building systems that can't go down, can't lose data, and can't afford to be slow.",
+    "github": "https://github.com/VPritesh",
+    "linkedin": "https://www.linkedin.com/in/vpritesh",
+    "email": "pritesh.vadhel86@gmail.com",
+    "bio": [
+      "I build high-scale products, distributed backends, and autonomous workflows across enterprise data, cloud infrastructure, and AI. Over the last 15+ years, my career has centered on mission-critical reliability—where milliseconds matter and downtime carries immediate enterprise consequences.",
+      "Today, I focus on the intersection of deterministic systems and generative AI: orchestrating agentic LLM pipelines, real-time telephony routers (Asterisk SBC), and cloud-native microservices on AWS and .NET 10.",
+      "I believe the highest-leverage software isn't just about calling an API—it is built by engineers who understand the entire stack beneath it: from query execution plans and Always On cluster failovers to multi-agent state machines."
+    ],
+    "history": [
+      {
+        "phase": "01",
+        "title": "The Relational Foundation",
+        "detail": "Deep dive into query execution planners, clustered index mechanics, and multi-terabyte schema design. Learned firsthand that every single disk I/O hop compounds at scale."
+      },
+      {
+        "phase": "02",
+        "title": "High-Throughput Distributed Backends",
+        "detail": "Engineered .NET Core microservices, high-availability Always On clusters, and payment pipelines powering millions in automated transactions with strict 99.9% SLAs."
+      },
+      {
+        "phase": "03",
+        "title": "Agentic AI & Production Automation",
+        "detail": "Building deterministic context routers, autonomous LLM agent networks (agency-agents), and Asterisk-to-Voice-AI session controllers operating in real time."
+      }
+    ],
+    "metrics": [
+      { "value": "15+", "label": "years in production" },
+      { "value": "99.9%", "label": "uptime on HA clusters" },
+      { "value": "100%", "label": "privacy compliance" },
+      { "value": "-70%", "label": "release cycle time" }
+    ]
+  },
+  "competencies": [
+    {
+      "category": "dbo.database",
+      "skills": [
+        {"name": "sql_server", "level": "expert", "isPK": true},
+        {"name": "always_on_ag", "level": "expert", "isPK": false},
+        {"name": "tde", "level": "expert", "isPK": false},
+        {"name": "perf_tuning", "level": "expert", "isPK": false},
+        {"name": "postgresql", "level": "solid", "isPK": false},
+        {"name": "mysql", "level": "solid", "isPK": false}
+      ]
+    },
+    {
+      "category": "dbo.backend",
+      "skills": [
+        {"name": "dotnet_10", "level": "expert", "isPK": true},
+        {"name": "csharp", "level": "expert", "isPK": false},
+        {"name": "asp_net_core", "level": "expert", "isPK": false},
+        {"name": "blazor", "level": "solid", "isPK": false},
+        {"name": "signalr", "level": "solid", "isPK": false},
+        {"name": "python", "level": "solid", "isPK": false}
+      ]
+    },
+    {
+      "category": "dbo.cloud",
+      "skills": [
+        {"name": "aws", "level": "solid", "isPK": true},
+        {"name": "azure", "level": "solid", "isPK": false},
+        {"name": "lambda_sqs", "level": "solid", "isPK": false},
+        {"name": "cloudflare", "level": "solid", "isPK": false},
+        {"name": "twilio", "level": "used", "isPK": false},
+        {"name": "powershell", "level": "expert", "isPK": false}
+      ]
+    },
+    {
+      "category": "dbo.frontend",
+      "skills": [
+        {"name": "react", "level": "solid", "isPK": true},
+        {"name": "typescript", "level": "solid", "isPK": false},
+        {"name": "javascript", "level": "solid", "isPK": false},
+        {"name": "html_css", "level": "solid", "isPK": false}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "link": "https://github.com/VPritesh/agency-agents",
+      "tags": ["AI Agents", "Workflows", "LLMs"]
+    },
+    {
+      "title": "SBC-Context-Router",
+      "description": "A high-performance Asterisk-based Session Border Controller (SBC) designed to preserve session state and campaign attribution between a primary PBX and external Voice AI platforms.",
+      "link": "https://github.com/VPritesh/SBC-Context-Router",
+      "tags": ["Asterisk PBX", "VoIP", "AI Routing"]
+    },
+    {
+      "title": "ArchiveManager",
+      "description": "A high-integrity, Robocopy-powered archival pipeline designed for zero-data-loss storage management.",
+      "link": "https://github.com/VPritesh/ArchiveManager",
+      "tags": ["PowerShell", "Data Archival", "Automation"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Principal Software Engineer – AI & Automation",
+      "company": "National Recovery Agency",
+      "period": "Oct 2022 — Present",
+      "description": "Architected a Propensity Architecture utilizing local ML inference for compliance risk. Re-architected Asterisk PBX environment for near-100% uptime. Built serverless AWS data pipelines (Lambda + SQS + API Gateway) for real-time financial transactions at scale. Shipped a unified omni-channel messaging platform replacing hardcoded logic with a DB-driven engine.",
+      "tags": [".NET 8", "AWS Lambda", "Local LLMs", "Asterisk PBX", "SQL Server"]
+    },
+    {
+      "role": "Software Developer",
+      "company": "Hexaware Technologies (Trustmark Benefits)",
+      "period": "Aug 2019 — Dec 2022",
+      "description": "Worked on-site at Trustmark Benefits, a national leader in employee benefit administration. Contributed to systems delivering cost-effective benefit solutions across diverse client bases including self-funded employers and state high-risk pools.",
+      "tags": ["C#", ".NET", "SQL Server", "Enterprise Software"]
+    },
+    {
+      "role": "Software Developer",
+      "company": "GFN",
+      "period": "Nov 2016 — Aug 2019",
+      "description": "Developed and managed applications for a Fuel Card System processing credit, debit, and gift card transactions. Handled top-level and sub-level customer hierarchies for authorized fuel site purchases.",
+      "tags": ["C#", "SQL Server", "Payment Systems"]
+    },
+    {
+      "role": "Senior Software Developer",
+      "company": "EnerNOC EIS Pvt. Ltd.",
+      "period": "July 2013 — Oct 2016",
+      "description": "Engineered Utility Bill Management (UBM) systems to transform raw utility data into centralized operational metrics. Facilitated carbon footprint calculations and global portfolio tracking.",
+      "tags": ["C#", "Data Processing", "Reporting"]
+    },
+    {
+      "role": "Software Developer",
+      "company": "DotCom Technologies Pvt. Ltd.",
+      "period": "June 2010 — July 2013",
+      "description": "Developed modules including database design, backend code, report generation, web hosting, and testing.",
+      "tags": ["ASP.NET", "Database Design", "Backend Development"]
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Why I still prefer SQL Server Always On over fully managed cloud DBs",
+      "date": "Oct 12, 2026",
+      "readTime": "6 min read",
+      "description": "An deep dive into the cost, control, and performance benefits of running your own HA clusters for enterprise compliance.",
+      "link": "#"
+    },
+    {
+      "title": "Building a zero-loss archival pipeline with PowerShell and Robocopy",
+      "date": "Aug 04, 2026",
+      "readTime": "4 min read",
+      "description": "How we automated the archival of 50TB of legacy data without dropping a single file.",
+      "link": "#"
+    }
+  ]
+}
