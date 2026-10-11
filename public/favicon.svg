@@ -1,18 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <style>
-    .text { 
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-      font-weight: 900; 
-      font-size: 65px; 
-      letter-spacing: -3px; 
-    }
-    .pv { fill: #121110; }
-    .slash { fill: #ff4d00; }
-    @media (prefers-color-scheme: dark) {
-      .pv { fill: #efece4; }
-    }
-  </style>
-  <text x="50" y="70" text-anchor="middle" class="text" dominant-baseline="middle">
-    <tspan class="pv">PV</tspan><tspan class="slash">/</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="20" fill="#121110"/>
+  <text x="50" y="66" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="54" letter-spacing="-2">
+    <tspan fill="#ebe7de">PV</tspan><tspan fill="#ff4d00">/</tspan>
   </text>
 </svg>
